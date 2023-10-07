@@ -4,8 +4,6 @@
      <p><a href="/writing">On Writing</a></p>
      <p><a href="/housing">Housing Affordability</a></p>
      <p><a href="/autism-education">Autism & Education</a></p>
-     <p><a href="/technology-society">Technology & Society</a></p>
-     <p><a href="/progress">Economic Progress & Religion</a></p>
      <p><a href="/bible">The Bible in the 21st Century</a></p>
-     <p><a href="/cos">Chief of Staff</a></p>
-     <p><a href="/more">More</a></p>
+     <p><a href="/chief-of-staff">Chief of Staff</a></p>
+     <p><a href="/">More</a></p>
