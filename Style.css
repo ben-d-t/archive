@@ -1,0 +1,108 @@
+html, body {
+  background-color: #181818;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #F0F0F0;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.full_page {
+ display: grid;
+ grid-template-columns: 80% 20%;
+ padding: 10px;
+ min-height: 100%;
+ height: auto !important;
+ margin-bottom: -50px;
+}
+
+.full_page:after {
+  content: "";
+  display: block;
+  height: 50px; /* the footer's total height */
+}
+
+.main {
+  padding-left: 50px;
+  height: 100%;
+}
+
+div.main {
+  word-spacing: 2px;
+  line-height: 1.5;
+  letter-spacing: 1.2;
+  max-width: 70ch;
+  word-wrap: break-word;
+}
+
+.sidebar {
+  text-align: left;
+  padding: 10px;
+  height: 100%;
+}
+
+a {
+  color: #00b3e5;
+  border-bottom: 1px solid #00b3e5;
+  text-decoration: none;
+}
+
+h6 {
+  color: #C0C0C0;
+}
+  
+footer {
+  text-align: center;
+  font-size: 10px;
+  height: 50px;
+}
+
+.footer_content {
+  height: 40px;
+  padding: 10px;
+}
+
+strong {
+ font-weight: 1200; 
+}
+
+li {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* li p {
+  line-height: normal;
+  margin: 0;
+}
+*/
+
+
+/* CSS for 3D game of life -- may need to modify with classes if using tables elsewhere */
+input[type=button] {
+    background-color: #00b3e5;
+    color: white;
+    font-size: 18px;
+}
+
+table {
+    text-indent: intial;
+    border-spacing: 2px;
+}
+
+.world table {
+    border-collapse: collapse;
+}
+
+.world table td {
+    border: 1px solid #EEEEEE;
+    width: 10px;
+    height: 10px;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
